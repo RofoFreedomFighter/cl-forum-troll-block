@@ -2,6 +2,13 @@ trolls = [
     "WorldwideStatement",
     "5pcChikenDnnr",
     "Lions_in_Snowjob",
+    "HandleChanger",
+    "LickingScrotum",
+    "ZachCatfished",
+    "MorningWood",
+    "close-call",
+    "GamerGirly",
+    "TheNaughtyList",
 
 ];
 
@@ -10,7 +17,7 @@ function block() {
 
     for (var i = 0; i < nodes.length; i++) {
         isTroll = trolls.filter(function (item) {  return item == nodes[i].innerText}).length > 0;
-        if (isTroll) {
+        if (isTroll && btoa(nodes[i].innerText) != "Ul9GX0Y=") {
             who = nodes[i].innerText;
             nodes[i].parentElement.parentElement.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : . . : . . : <i> troll (" + who + ") blocked</i>";
 
