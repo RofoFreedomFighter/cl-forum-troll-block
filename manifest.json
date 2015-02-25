@@ -12,9 +12,11 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://forums.craigslist.org/?act=DF&forumID=28&node=0&old=yes"],
+            "matches": ["https://forums.craigslist.org/*"],
             "js": ["block.js"],
-            "run_at": "document_end"
+            "run_at": "document_end",
+            "all_frames" : true
         }
     ]
 }
+
