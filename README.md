@@ -13,4 +13,4 @@ To use:
 3.  Go to chrome extensions (settings->extensions)
 4.  enable "developer mode" in the upper right
 5.  click "Load unpacked extension" button and select director where you downloaded it.
-6.  If you need to add to the troll list, edit block.js and go back to the extension settings and click "Reload".
+6.  If you need to add to the troll list, click the red peace symbol icon in the upper right of your browsa.
