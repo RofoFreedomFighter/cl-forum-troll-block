@@ -1,19 +1,7 @@
 trollDefaults = [
-    "WorldwideStatement",
-    "5pcChikenDnnr",
-    "Lions_in_Snowjob",
-    "HandleChanger",
-    "LickingScrotum",
-    "ZachCatfished",
-    "MorningWood",
-    "close-call",
-    "GamerGirly",
-    "gov-r-n8t-r",
-    "TheNaughtyList",
-    "RFF-Is-A-Douchebag",
-    "Julie-in-HR",
-    "prettylilthing",
-    "Urinal-_-Cake"
+    "Example_Troll_#1",
+    "Example_Troll_#2",
+    "Example_Troll_#3"
 ];
 
 function block() {
