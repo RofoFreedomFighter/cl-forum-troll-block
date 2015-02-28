@@ -1,14 +1,19 @@
 {
-    "name": "ROFO troll blocker",
+    "name": "CL troll blocker",
     "version": "1.0",
     "manifest_version": 2,
     "description": "block dem trolls",
     "version": "1.0",
     "permissions": [
-        "tabs", "http://*/"
+        "tabs", "http://*/", "storage"
     ],
     "browser_action": {
-        "default_icon": "icon.png"
+        "default_icon": "icon.png",
+        "default_popup": "options.html"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "chrome_style": true
     },
     "content_scripts": [
         {
@@ -19,4 +24,3 @@
         }
     ]
 }
-
